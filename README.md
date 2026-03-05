@@ -81,6 +81,30 @@ These courses cover:
 
 ---
 
+## 🧪 Security Lab Projects
+
+Hands-on cybersecurity labs demonstrating monitoring, logging, threat detection, and system hardening.
+
+### 🔐 AWS Cloud Security Monitoring Lab
+- Configured **AWS CloudWatch Log Groups**
+- Implemented **audit logging for command history**
+- Tested log forwarding and alert triggering
+- Documented security monitoring workflow
+
+### 🖥 Linux Security Hardening Lab
+- Configured **auditd rules for command monitoring**
+- Implemented **secure shell history controls**
+- Tested detection of suspicious commands
+- Verified logging visibility in monitoring tools
+
+### 📊 SOC Log Analysis Lab
+- Practiced analyzing logs similar to a **Security Operations Center (SOC)**
+- Investigated command history events
+- Identified suspicious patterns
+- Documented findings in markdown reports
+
+---
+
 # 📫 Connect With Me
 
 GitHub Portfolio: https://github.com/ZuriZeal/security-portfolio
