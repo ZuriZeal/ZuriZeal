@@ -90,13 +90,13 @@ LinkedIn: https://www.linkedin.com/in/ivan-sweeting-6484b595/
 
 ---
 
-# 📊 GitHub Stats
+## 📊 GitHub Stats
 
-![Zuri's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZuriZeal&show_icons=true&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZuriZeal&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ZuriZeal&layout=compact&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ZuriZeal&theme=tokyonight)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ZuriZeal&theme=tokyo-night)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ZuriZeal&theme=tokyonight)
 
 ---
 
