@@ -83,7 +83,7 @@ These courses cover:
 
 # 📫 Connect With Me
 
-GitHub Portfolio: https://github.com/ZuriZeal/security-portfolio  
+GitHub Portfolio: https://github.com/ZuriZeal/security-portfolio
 LinkedIn: https://www.linkedin.com/in/ivan-sweeting-6484b595/
 
 ⭐ Thank you for visiting my cybersecurity portfolio.
