@@ -98,6 +98,11 @@ Hands-on cybersecurity labs demonstrating monitoring, logging, threat detection,
 - Verified logging visibility in monitoring tools
 
 ### 📊 SOC Log Analysis Lab
+SOC command monitoring investigation.
+
+🔗 Project:
+https://github.com/ZuriZeal/soc-command-history-audit
+
 - Practiced analyzing logs similar to a **Security Operations Center (SOC)**
 - Investigated command history events
 - Identified suspicious patterns
