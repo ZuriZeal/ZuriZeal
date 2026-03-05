@@ -5,7 +5,9 @@
 
 ---
 
-Welcome to my cybersecurity portfolio. I am currently building hands-on security projects focused on:
+Welcome to my cybersecurity portfolio. 
+
+I am currently building hands-on security projects focused on:
 
 - Security monitoring
 - Log analysis
@@ -56,19 +58,30 @@ This repository demonstrates:
 
 ---
 
-# 🎓 Certifications & Coursework
+## 🎓 Certifications & Coursework
 
 I am currently completing the **Google Cybersecurity Professional Certificate** through Coursera.
 This program focuses on hands-on security operations, threat detection, Linux security, and network defense.
 
 Completed courses include:
 
-- Foundations of Cybersecurity — 95.51%
-- Tools of the Trade: Linux and SQL — 95%
-- Sound the Alarm: Detection and Response — 88.12%
-- Assets, Threats, and Vulnerabilities — 93.75%
-- Play It Safe: Manage Security Risks — 96.43%
-- Connect and Protect: Networks and Network Security — 99.40%
+* **Foundations of Cybersecurity** – 95.51%
+  Certificate: https://coursera.org/share/472fec9e25b9aa4d65e33f17af496e0e
+
+* **Tools of the Trade: Linux and SQL** – 95%
+  Certificate: https://coursera.org/share/89b34a3a71d225b1ad666e12e85e25fb
+
+* **Sound the Alarm: Detection and Response** – 88.12%
+  Certificate: https://coursera.org/share/b6d3ef478e0660ef181df9950f2905f2
+
+* **Assets, Threats, and Vulnerabilities** – 93.75%
+  Certificate: https://coursera.org/share/5441e07ae673d14debdd5323391e02ca
+
+* **Play It Safe: Manage Security Risks** – 96.43%
+  Certificate: https://coursera.org/share/e436cdc3c6719fe2463d223e90fc4ccc
+
+* **Connect and Protect: Networks and Network Security** – 99.40%
+  Certificate: https://coursera.org/share/b68477e952e9a8b145ccbe9dfbf943b4
 
 These courses cover:
 
@@ -78,6 +91,137 @@ These courses cover:
 - Threat detection and response
 - Network security
 - Risk management
+
+---
+
+## 🧠 Security Skills Matrix
+
+| Security Domain       | Tools / Technologies                              |
+| --------------------- | ------------------------------------------------- |
+| Threat Detection      | auditd, CloudWatch Logs, Linux command monitoring |
+| Log Analysis          | AWS CloudWatch, system logs, audit logs           |
+| Detection Engineering | command monitoring, behavioral indicators         |
+| Cloud Security        | AWS logging, monitoring pipelines                 |
+| System Hardening      | Linux security controls, shell history protection |
+| Security Operations   | SOC investigations, incident analysis             |
+
+---
+
+## 🚨 Featured Security Work
+
+🔎 **SOC Command History Threat Investigation**
+Detecting suspicious command execution using audit logs and shell history monitoring.
+🔗 https://github.com/ZuriZeal/soc-command-history-audit
+
+☁️ **AWS Cloud Security Monitoring Lab**
+Configured CloudWatch log groups, command history auditing, and security monitoring pipelines.
+🔗 https://github.com/ZuriZeal/security-portfolio
+
+🛡 **Linux System Hardening Lab**
+Implemented `auditd` rules, shell history protection, and suspicious command detection.
+🔗 Included in Security Lab Projects
+
+---
+## 🔥 SOC Detection & Threat Detection Engineering
+
+Examples of detection logic used in my security labs and investigations.
+
+### Detect Suspicious Sudo Usage
+
+Monitor privilege escalation attempts through audit logs.
+
+```bash
+ausearch -m USER_CMD | grep sudo
+```
+
+### Detect Reverse Shell Behavior
+
+Identify suspicious outbound connections and shell execution patterns.
+
+Indicators:
+
+* Unexpected outbound connections
+* Shell spawned by network processes
+* High-risk command execution
+
+### Detect Command History Tampering
+
+Attackers often attempt to erase their tracks.
+
+Example commands monitored:
+
+```bash
+history -c
+rm -rf *
+sudo su
+```
+
+Detection method:
+
+* auditd command monitoring
+* command execution logs
+* CloudWatch log alerts
+
+---
+
+## 🕵️ Threat Hunting & Incident Investigation
+
+Examples of proactive threat hunting performed in my security labs.
+
+### Suspicious Privilege Escalation Hunt
+
+Investigated abnormal privilege escalation attempts using Linux audit logs.
+
+Indicators searched:
+
+* Repeated sudo usage
+* Unexpected root access
+* Privileged command execution
+
+Example query:
+
+```
+ausearch -m USER_CMD | grep sudo
+```
+
+---
+
+### Reverse Shell Activity Hunt
+
+Hunted for indicators of reverse shell behavior.
+
+Indicators:
+
+* Outbound connections from shell processes
+* Netcat / bash network execution
+* Suspicious command pipelines
+
+Example investigation commands:
+
+```
+ps aux | grep bash
+netstat -tulpn
+```
+
+---
+
+### Command History Manipulation Hunt
+
+Investigated attempts to erase attacker activity.
+
+Indicators:
+
+* History clearing commands
+* Suspicious root shell access
+* Destructive file operations
+
+Example commands monitored:
+
+```
+history -c
+rm -rf *
+sudo su
+```
 
 ---
 
@@ -127,6 +271,8 @@ https://github.com/ZuriZeal/soc-command-history-audit
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 ![YAML](https://img.shields.io/badge/YAML-000000?style=for-the-badge&logo=yaml)
+![AUDITD](https://img.shields.io/badge/AUDITD-Detection-blue)
+![CLOUDWATCH](https://img.shields.io/badge/AWS-CloudWatch-orange)
 
 ---
 
