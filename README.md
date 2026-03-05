@@ -87,3 +87,27 @@ GitHub Portfolio: https://github.com/ZuriZeal/security-portfolio
 LinkedIn: https://www.linkedin.com/in/ivan-sweeting-6484b595/
 
 ⭐ Thank you for visiting my cybersecurity portfolio.
+
+---
+
+# 📊 GitHub Stats
+
+![Zuri's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZuriZeal&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ZuriZeal&layout=compact&theme=tokyonight)
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ZuriZeal&theme=tokyo-night)
+
+---
+
+# 🛡 Security Tools
+
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![YAML](https://img.shields.io/badge/YAML-000000?style=for-the-badge&logo=yaml)
+
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=ZuriZeal&color=blue)
